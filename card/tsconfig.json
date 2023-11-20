@@ -26,12 +26,12 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.js"
+    "src/**/*.js",
+    "**/*.test.ts",
   ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts",
-    "**/*.test.ts",
     "**/*.spec.js"
   ],
 }
