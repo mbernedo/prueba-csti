@@ -34,3 +34,5 @@
                 "email": "mbernedo5@gmail.com"
             }
         }
+    8) Para las pruebas usar el comando yarn test
+    9) La prueba de find card correcta se debe generar poniendo en el texto un token valido
