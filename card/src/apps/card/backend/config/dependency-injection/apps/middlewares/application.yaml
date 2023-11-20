@@ -1,0 +1,3 @@
+services:
+  Apps.middlewares.CheckTokenHeaderMiddleware:
+    class: ../../../../middlewares/CheckTokenHeaderMiddleware

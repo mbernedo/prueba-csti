@@ -1,0 +1,4 @@
+imports:
+  - { resource: ./controllers/application.yaml }
+  - { resource: ./middlewares/application.yaml }
+  - { resource: ./routes/application.yaml }

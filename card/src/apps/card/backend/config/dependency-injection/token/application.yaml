@@ -1,0 +1,9 @@
+services:
+  Contexts.token.RedisTokenRepository:
+    class: ../../../../../../Contexts/card/token/infrastructure/persistence/RedisTokenRepository
+  Contexts.token.CreateToken:
+    class: ../../../../../../Contexts/card/token/application/create/CreateToken
+    arguments: [
+        '@Contexts.token.RedisTokenRepository'
+    ]
+

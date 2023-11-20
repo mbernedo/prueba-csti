@@ -1,0 +1,4 @@
+services:
+  Apps.controllers.CreateTokenPostController:
+    class: ../../../../../../controllers/token/create/CreateTokenPostController
+    arguments: ['@Contexts.token.CreateToken']

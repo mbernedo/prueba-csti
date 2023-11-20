@@ -1,0 +1,11 @@
+# NodeJs
+**/node_modules
+# Temp files
+**/*.temp
+**/*.tmp
+**/temp
+/deploy/temp
+# Env
+**/*.env
+!.dist.env
+**/*.http

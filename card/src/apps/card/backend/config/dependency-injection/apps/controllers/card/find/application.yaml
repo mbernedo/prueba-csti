@@ -1,0 +1,4 @@
+services:
+  Apps.controllers.FindCardGetController:
+    class: ../../../../../../controllers/card/find/FindCardGetController
+    arguments: ['@Contexts.card.FindCard']

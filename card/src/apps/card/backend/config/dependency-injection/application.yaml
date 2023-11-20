@@ -1,0 +1,4 @@
+imports:
+  - { resource: ./token/application.yaml }
+  - { resource: ./card/application.yaml }
+  - { resource: ./apps/application.yaml }

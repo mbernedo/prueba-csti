@@ -1,0 +1,9 @@
+services:
+  Contexts.card.RedisCardRepository:
+    class: ../../../../../../Contexts/card/card/infrastructure/persistence/RedisCardRepository
+  Contexts.card.FindCard:
+    class: ../../../../../../Contexts/card/card/application/find/FindCard
+    arguments: [
+        '@Contexts.card.RedisCardRepository'
+    ]
+

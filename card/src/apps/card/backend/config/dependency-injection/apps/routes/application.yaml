@@ -1,0 +1,10 @@
+services:
+  Apps.routes.TokenRoutes:
+    class: ../../../../routes/TokenRoutes
+    tags:
+      - { name: 'route' }
+
+  Apps.routes.CardRoutes:
+    class: ../../../../routes/CardRoutes
+    tags:
+      - { name: 'route' }
